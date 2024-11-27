@@ -5,9 +5,9 @@ export default function Library({ libros }) {
   const [Libros, setLibros] = useState(libros);
 
   function editarLibros(index, nuevoTitulo) {
-    const updatedLibros = [...Libros];
-    updatedLibros[index] = nuevoTitulo;
-    setLibros(updatedLibros);
+    const actualizarLibros = [...Libros];
+    actualizarLibros[index] = nuevoTitulo;
+    setLibros(actualizarLibros);
   }
 
   return (

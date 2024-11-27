@@ -7,7 +7,7 @@ import Library from "./Ejercicio3";
 
 export default function Home() {
   //Imágenes para mostrar en el ejercicio 2
-  const images = [
+  const imagenes = [
     "https://image-service.onefootball.com/transform?w=128&dpr=2&image=https://images.onefootball.com/icons/teams/164/34.png",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLRXwAQtt7KeRbiP1HSos8eTXLUAPWknKuwg&s",
     "https://cdn.icon-icons.com/icons2/104/PNG/256/spain_2_footballteam_18001.png",
@@ -38,7 +38,7 @@ export default function Home() {
       <AnimalList></AnimalList>
       <br></br>
       <h1>Ejercicio 2</h1>
-      <ImageGallery images={images} frases={frases}/>
+      <ImageGallery images={imagenes} frases={frases}/>
       <br></br>
       <h1>Ejercicio 3</h1>
       <Library libros={libros}></Library>
